@@ -40,6 +40,11 @@ INSTALLED_APPS = [
     'qlapp',
     'graphene_django'
 ]
+# Graphene schema configuration
+GRAPHENE = {
+    "SCHEMA": "cookbookql.schema.schema"
+}
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
